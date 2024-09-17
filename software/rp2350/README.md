@@ -24,14 +24,23 @@ You must not install the `micropython-europi` package nor use a `europi-vX.Y.Z.u
 The only change that really needs to be made is related to the ADC. We need to use the ADC channel number instead
 of the Pin number.
 
-In `europi.py`, replace :  
+In `europi.py`, in the `__init__` method of the `AnalogReader` class, replace : 
+
+    self.pin = ADC(Pin(pin))
+
+with : 
+
+    self.pin = ADC(pin)
+
+
+In `europi.py`, in the main code (end of the file), replace : 
 
     ain = AnalogueInput(PIN_AIN)
     k1 = Knob(PIN_K1)
     k2 = Knob(PIN_K2)
 
-with : 
-    
+with :
+
     ain = AnalogueInput(0)
     k1 = Knob(1)          
     k2 = Knob(2)          
