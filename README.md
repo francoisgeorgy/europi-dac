@@ -33,12 +33,29 @@ This specific order of the channels was chosen to facilitate the PCB routing.
 
 The EuroPi outputs 1 and 2 do not change and are still driven with a PWM output from the Pico.
 
+#### Power supply : 
+
+This custom PCB swaps the 10-pin Eurorack power connector for a 16-pin one and removes the onboard power regulator, 
+opting to use the 5V directly from the Eurorack power supply instead.
+
+
 ## Schematic
 
 Here is the schematic of this PCB : [dac-board-v2.1.pdf](hardware%2Fdac-board-v2.1%2Fplot%2Fdac-board-v2.1.pdf)
 
 
-### License
+## Why build this custom PCB?
+
+This PCB project was mainly a fun excuse to experiment and learn:
+
+- [KiCad](https://www.kicad.org/) practice: a good opportunity to get better at PCB design.
+- SMD assembly with [JLCPCB](https://jlcpcb.com/): tried out having the board made and assembled by an external provider.
+- Eurorack power filtering: played around with filtering power right on the PCB.
+- DAC vs PWM outputs: wanted to see if DAC outputs really outperform PWM for basic CV voltages.
+- Just for fun: because DIY projects are always more fun!
+
+
+## License
 
 This custom PCB is licensed under the same terms and conditions as the original EuroPi. 
 
