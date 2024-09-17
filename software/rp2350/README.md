@@ -12,11 +12,12 @@ Pimoroni offers a Pico 2 board that is a drop-in replacement for the Pico :
 Select the **pico_plus2_rp2350** MicroPython Flavour. 
 The current release (september 16th) is [pico_plus2_rp2350-v0.0.7-pimoroni-micropython.uf2](https://github.com/pimoroni/pimoroni-pico-rp2350/releases/download/v0.0.7/pico_plus2_rp2350-v0.0.7-pimoroni-micropython.uf2). 
 
-2. Install ssd1306 package
-3. Install the EuroPi software from the source files
+2. Install the ssd1306 package.
+3. Install the EuroPi software from the source files. 
+You must not install the `micropython-europi` package nor use a `europi-vX.Y.Z.uf2` file.
 4. Adapt the EuroPi scripts to work with the Pico 2.
 
-You must not install the `micropython-europi` package nor use a `europi-vX.Y.Z.uf2` file.
+
 
 ### Software changes for the Pico 2 : 
 
