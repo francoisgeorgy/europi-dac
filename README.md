@@ -32,3 +32,20 @@ The DAC outputs are connected to the EuroPi 3, 4, 5 and 6 outputs as follows :
 This specific order of the channels was chosen to facilitate the PCB routing. 
 
 The EuroPi outputs 1 and 2 do not change and are still driven with a PWM output from the Pico.
+
+## Schematic
+
+Here is the schematic of this PCB : [dac-board-v2.1.pdf](hardware%2Fdac-board-v2.1%2Fplot%2Fdac-board-v2.1.pdf)
+
+
+### License
+
+This custom PCB is licensed under the same terms and conditions as the original EuroPi. 
+
+This module, and any documentation included in this repository, is entirely "free" software and hardware, 
+under different licenses depending on the software, hardware, and documentation itself.
+
+* Software: [Apache 2.0](software/LICENSE)
+* Hardware: [CERN OHL-S v2](hardware/LICENSE)
+* Documentation: [CC0 1.0](LICENSE)
+
